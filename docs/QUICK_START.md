@@ -300,7 +300,7 @@ Or: `~/workspace/rclone/RCLONE_ONDEMAND_GUIDE.md`
 
 ### For Rust Applet Issues
 See: `~/workspace/rclone-mount-tray/README.md`
-Or: `~/workspace/rclone-mount-tray/RUST_LEARNING_GUIDE.md`
+Or: `~/workspace/rclone-mount-tray/docs/RUST_LEARNING_GUIDE.md`
 
 ### For System Issues
 ```bash
@@ -320,7 +320,7 @@ cat /proc/mounts | grep rclone
 ## 🎓 Next Steps
 
 1. **Learn the Bash Script** - Read `RCLONE_ONDEMAND_GUIDE.md`
-2. **Understand Rust Applet** - Read `RUST_LEARNING_GUIDE.md`
+2. **Understand Rust Applet** - Read `docs/RUST_LEARNING_GUIDE.md`
 3. **Customize Configuration** - Edit `~/.config/rclone/rclone.conf`
 4. **Explore Source Code** - Check `~/workspace/rclone-mount-tray/src/`
 5. **Extend Features** - Consider future enhancements

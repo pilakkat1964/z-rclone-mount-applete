@@ -365,7 +365,7 @@ This project uses GitHub Actions for automated building, testing, and releasing.
 - **Debian Packages** - Validates Debian packaging
 - **Release** - Automated builds on version tags
 
-See [CI_CD.md](CI_CD.md) for complete details.
+See [CI_CD.md](docs/CI_CD.md) for complete details.
 
 ### Getting Releases
 
@@ -382,7 +382,7 @@ sudo apt install ./rclone-mount-tray_*.deb
 
 ### Creating a Release
 
-See [RELEASE_PROCEDURE.md](RELEASE_PROCEDURE.md) for detailed steps.
+See [RELEASE_PROCEDURE.md](docs/RELEASE_PROCEDURE.md) for detailed steps.
 
 Quick process:
 ```bash
@@ -399,10 +399,10 @@ git push origin master v0.2.0
 ## Documentation
 
 - **[README.md](README.md)** - This file
-- **[QUICK_START.md](QUICK_START.md)** - 5-minute getting started guide
-- **[PACKAGING.md](PACKAGING.md)** - Debian packaging guide
-- **[CI_CD.md](CI_CD.md)** - CI/CD pipeline documentation
-- **[RELEASE_PROCEDURE.md](RELEASE_PROCEDURE.md)** - Release procedures
+- **[QUICK_START.md](docs/QUICK_START.md)** - 5-minute getting started guide
+- **[PACKAGING.md](docs/PACKAGING.md)** - Debian packaging guide
+- **[CI_CD.md](docs/CI_CD.md)** - CI/CD pipeline documentation
+- **[RELEASE_PROCEDURE.md](docs/RELEASE_PROCEDURE.md)** - Release procedures
 - **[RCLONE_ONDEMAND_GUIDE.md](../RCLONE_ONDEMAND_GUIDE.md)** - On-demand mounting guide
 
 ## Support
