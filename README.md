@@ -415,6 +415,16 @@ For issues, suggestions, or questions:
 4. [Create an issue](https://github.com/pilakkat1964/rclone-mount-tray/issues) on GitHub
 5. Report issues with relevant logs and environment info
 
+## Contributing
+
+Want to contribute to z-rclone-mount-applete? We'd love your help! Check out [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- How to report bugs and suggest features
+- Development environment setup with Rust and Cargo
+- Code style guidelines (fmt, clippy, async/await patterns)
+- Testing requirements and best practices
+- Understanding the modular architecture (mount_manager, systemd_manager, tray_ui)
+- Pull request process and code review expectations
+
 ---
 
 **Happy mounting!** 📦
