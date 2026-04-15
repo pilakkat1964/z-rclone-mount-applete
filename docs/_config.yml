@@ -1,0 +1,64 @@
+# GitHub Pages Jekyll Configuration for z-rclone-mount-applete
+# Theme: jekyll-theme-slate
+
+# Base URL for GitHub Pages deployment
+baseurl: /z-rclone-mount-applete
+
+# Theme
+theme: jekyll-theme-slate
+
+# Site Information
+title: RClone Mount Applete
+description: "System tray applet and configuration manager for rclone cloud storage mounts on Linux desktop"
+show_downloads: true
+
+# GitHub Repository Information
+github:
+  repository_url: https://github.com/pilakkat1964/z-rclone-mount-applete
+  owner_name: pilakkat1964
+  owner_url: https://github.com/pilakkat1964
+
+# Plugins for GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-relative-links
+
+# Markdown processor
+markdown: kramdown
+
+# Kramdown configuration
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalink style
+permalink: /:title/
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Relative links plugin configuration
+relative_links:
+  collections: true
+
+# Build settings
+keep_files:
+  - .git
+  - .github
+
+# Exclude unnecessary files
+exclude:
+  - Makefile
+  - .gitignore
+  - .github
+  - README.md
+  - Cargo.toml
+  - Cargo.lock
+  - src
+  - target
+  - scripts
+  - data

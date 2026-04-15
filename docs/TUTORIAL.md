@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tutorial
+---
+
 # Rust GUI Application Development: A Comprehensive Tutorial
 
 ## Building a System Tray & GTK4 Application for Linux

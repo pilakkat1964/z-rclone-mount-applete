@@ -1,3 +1,8 @@
+---
+layout: default
+title: Architecture
+---
+
 # Visual Architecture & Design Patterns
 
 ## System Architecture Overview

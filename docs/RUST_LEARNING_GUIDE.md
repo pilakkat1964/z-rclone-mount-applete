@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rust Learning Guide
+---
+
 # RClone Mount Manager - System Tray Applet (Rust)
 
 ## Project Overview

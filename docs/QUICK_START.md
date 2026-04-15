@@ -1,3 +1,8 @@
+---
+layout: default
+title: Quick Start
+---
+
 # RClone Mount Manager - Quick Start Guide
 
 ## 🚀 5-Minute Quick Start

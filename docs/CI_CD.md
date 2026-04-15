@@ -1,3 +1,8 @@
+---
+layout: default
+title: CI/CD Pipeline
+---
+
 # CI/CD Pipeline Documentation
 
 This document describes the GitHub Actions CI/CD pipeline for automated building, testing, and releasing of rclone-mount-tray.

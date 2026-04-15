@@ -1,3 +1,8 @@
+---
+layout: default
+title: Project Summary
+---
+
 # RClone Mount Manager - Complete Project Summary
 
 ## 🎉 Project Completion Summary

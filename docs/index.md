@@ -1,3 +1,8 @@
+---
+layout: default
+title: RClone Mount Applete Documentation
+---
+
 # Rclone Mount Management Tray Applete
 
 A GTK4-based system tray application for managing rclone mounts with an intuitive graphical interface. This applet provides seamless integration with your desktop environment, allowing you to mount, unmount, and monitor rclone storage locations directly from your system tray.
@@ -29,3 +34,13 @@ Explore the documentation to get started:
 This project demonstrates professional GTK4 application development in Rust, with emphasis on system integration, user experience, and production-ready packaging.
 
 **Repository:** [pilakkat1964/z-rclone-mount-applete](https://github.com/pilakkat1964/z-rclone-mount-applete)
+
+## Related Z-Tools Projects
+
+The z-rclone-mount-applete project is part of the **z-tools ecosystem** - a collection of complementary Linux utilities. Explore other projects in the ecosystem:
+
+- **[z-edit](../z-edit/docs/)** - Python-based text editor with advanced search and manipulation capabilities
+- **[z-open](../z-open/docs/)** - Python utility for intelligent file and directory opening with fuzzy matching
+- **[z-kitty-launcher](../z-kitty-launcher/docs/)** - Rust-based application launcher and command executor for the Kitty terminal
+
+For a comprehensive overview of all z-tools projects, visit the [Master Index](../MASTER_INDEX.md).

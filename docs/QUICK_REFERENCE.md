@@ -1,3 +1,8 @@
+---
+layout: default
+title: Quick Reference
+---
+
 # Quick Reference Guide
 
 ## Common Rust Patterns Used in This Project

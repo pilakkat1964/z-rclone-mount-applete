@@ -1,3 +1,8 @@
+---
+layout: default
+title: Release Procedure
+---
+
 # Release Checklist and Procedures
 
 This guide provides step-by-step instructions for creating releases of rclone-mount-tray.

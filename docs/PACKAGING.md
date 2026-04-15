@@ -1,3 +1,8 @@
+---
+layout: default
+title: Packaging Guide
+---
+
 # Debian Package Building Guide
 
 This guide explains how to build and distribute `.deb` packages for `rclone-mount-tray` on Ubuntu and Debian platforms.
