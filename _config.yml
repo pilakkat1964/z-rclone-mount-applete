@@ -1,0 +1,13 @@
+theme: jekyll-theme-slate
+source: docs
+
+title: Rclone Mount Management Tray Applete
+description: "GTK4-based rclone mount manager with system tray integration"
+show_downloads: true
+github:
+  repository_url: https://github.com/pilakkat1964/z-rclone-mount-applete
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
