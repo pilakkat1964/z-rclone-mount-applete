@@ -39,8 +39,8 @@ This project demonstrates professional GTK4 application development in Rust, wit
 
 The z-rclone-mount-applete project is part of the **z-tools ecosystem** - a collection of complementary Linux utilities. Explore other projects in the ecosystem:
 
-- **[z-edit](../z-edit/docs/)** - Python-based text editor with advanced search and manipulation capabilities
-- **[z-open](../z-open/docs/)** - Python utility for intelligent file and directory opening with fuzzy matching
-- **[z-kitty-launcher](../z-kitty-launcher/docs/)** - Rust-based application launcher and command executor for the Kitty terminal
+- **[Z-Edit](http://pilakkat.mywire.org/z-edit/)** - Python-based text editor with advanced search and manipulation capabilities
+- **[Z-Open](http://pilakkat.mywire.org/z-open/)** - Python utility for intelligent file and directory opening with fuzzy matching
+- **[Z-Kitty Launcher](http://pilakkat.mywire.org/z-kitty-launcher/)** - Rust-based application launcher and command executor for the Kitty terminal
 
-For a comprehensive overview of all z-tools projects, visit the [Master Index](../MASTER_INDEX.md).
+For a comprehensive overview of all z-tools projects, visit the [Master Index](http://pilakkat.mywire.org/master-index/).
