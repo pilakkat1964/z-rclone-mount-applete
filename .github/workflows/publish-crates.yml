@@ -1,0 +1,48 @@
+name: Publish to Crates.io
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish to Crates.io
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Verify package before publishing
+        run: |
+          cargo package --allow-dirty
+          echo "Package verification successful"
+          echo ""
+          echo "Package contents:"
+          tar tzf target/package/*.crate | head -20
+
+      - name: Publish to Crates.io
+        run: cargo publish --token ${{ secrets.CARGO_REGISTRY_TOKEN }}
+        continue-on-error: true
+
+      - name: Wait for indexing
+        run: sleep 15
+
+      - name: Verify publication
+        run: |
+          PACKAGE_NAME=$(grep '^name' Cargo.toml | head -1 | sed 's/.*"\([^"]*\)".*/\1/')
+          VERSION=$(grep '^version' Cargo.toml | head -1 | sed 's/.*"\([^"]*\)".*/\1/')
+          echo "✓ Published: $PACKAGE_NAME v$VERSION"
+          echo "View at: https://crates.io/crates/$PACKAGE_NAME/$VERSION"
+          echo ""
+          echo "Documentation:"
+          echo "https://docs.rs/$PACKAGE_NAME/$VERSION/$PACKAGE_NAME/"

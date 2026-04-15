@@ -5,6 +5,12 @@ edition = "2021"
 authors = ["RClone Tray Contributors"]
 description = "System tray applet for on-demand rclone mount management"
 license = "MIT"
+repository = "https://github.com/pilakkat1964/z-rclone-mount-applete"
+documentation = "https://docs.rs/rclone-mount-tray"
+homepage = "https://github.com/pilakkat1964/z-rclone-mount-applete"
+readme = "README.md"
+keywords = ["rclone", "tray", "system-tray", "mount-manager", "applet"]
+categories = ["command-line-utilities", "gui"]
 
 [dependencies]
 # Async runtime (full features for blocking operations)
